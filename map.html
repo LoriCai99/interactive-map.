@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Map with Overlay</title>
     <style>
+        /* Ensure the map fills the entire page */
         html, body {
             margin: 0;
             height: 100%;
@@ -18,17 +19,6 @@
             left: 0;
             width: 100%;
             height: 100%;
-            border: none;
-        }
-        .overlay {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            background: rgba(255, 255, 255, 0.8);
-            padding: 10px 20px;
-            border-radius: 8px;
-            font-family: Arial, sans-serif;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
         }
     </style>
 </head>
@@ -36,9 +26,5 @@
     <iframe 
         src="https://api.maptiler.com/maps/e6a0e1bc-823e-425a-b7c2-4ef6d1d2f211/?key=uU2wOd03GHDtuQlFIsfY#0.7/39.09236/-0.55855">
     </iframe>
-    <div class="overlay">
-        <p>Welcome to the Interactive Map!</p>
-        <button onclick="alert('Button clicked!')">Click Me</button>
-    </div>
 </body>
 </html>
